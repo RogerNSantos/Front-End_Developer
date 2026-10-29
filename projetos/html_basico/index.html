@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html básico</title>
+</head>
+<body>
+    <h1 id="html">Html básico</h1>
+    <ul>
+        <a href="#elementos"><li>Elementos Html</li></a>
+       <a href="#anatomia"><li>Anatomia do documento Html</li></a>
+        <a href="#tags"><li>As tags</li></a>
+    </ul>
+    <hr>
+
+    <p>
+        HTML (Linguagem de Marcação de Hipertexto) é o código que você usa para estruturar uma página web e seu conteúdo. HTML não é uma linguagem de programação; é uma linguagem de marcação, usada para definir a estrutura do seu conteúdo. HTML consiste de uma série de elementos, que você usa para delimitar ou agrupar diferentes partes do conteúdo para que ele apareça ou atue de determinada maneira. As tags anexas podem transformar uma palavra ou imagem num hiperlink, pode colocar palavras em itálico, pode aumentar ou diminuir a fonte e assim por diante.
+    </p>
+
+    <h2  id="elementos">Elementos Html</h2>
+    <a href="#html"><small>Voltar</small></a>
+        <ol>
+            <li>
+                <strong>Tag de abertura:</strong> Consiste no nome do elemento (no caso, p), envolvido em parênteses angulares de abertura e fechamento.
+            </li>
+
+            <li>
+                <strong>Tag de fechamento:</strong> Isso é a mesma coisa que a tag de abertura, exceto que inclui uma barra antes do nome do elemento. Isso demonstra onde o elemento acaba
+            </li>
+
+            <li>
+                <strong>Conteúdo:</strong> Esse é o conteúdo do elemento, que nesse caso é apenas texto.
+            </li>
+
+            <li>
+               <strong>Elemento:</strong> A tag de abertura, a de fechamento, e o conteúdo formam o elemento
+            </li>           
+        </ol>
+
+        <h2 id="anatomia">Anatomia do documento Html</h2>
+        <a href="#html"><small>Voltar</small></a>
+   
+        <ul>
+            <li>
+                <strong><-DOCTYPE html></strong> — É a parte inicial obrigatória do documento. 
+            </li>
+            <li>
+                <strong><-html><-/html></strong> — Esse elemento envolve todo o conteúdo da página e às vezes é conhecido como o elemento raiz.
+            </li>
+            <li>
+                <strong><-head><-/head></strong> — Esse elemento age como um recipiente de tudo o que você deseja incluir em uma página HTML que não é o conteúdo que você quer mostrar para quem vê sua página. 
+            </li>
+            <li>
+                <strong><-meta charset="utf-8"></strong> — esse elemento define o conjunto de caracteres que seu documento deve usar para o UTF-8, que inclui praticamente todos os caracteres da grande maioria dos idiomas escritos.
+            </li>
+            <li>
+                <strong><-title><-/title></strong> — Ele define o título da sua página, que é o título que aparece na guia do navegador onde sua página é carregada.
+            </li>
+        </ul>
+
+        <h2 id="tags">As tags</h2>
+        <a href="#html"><small>Voltar</small></a>
+
+        <h3><i>img</i></h3>
+        <p> <strong>Tag img</strong> - <-img src="images/firefox-icon.png" alt="Minha imagem de teste" -/> - Isso incorpora uma imagem na nossa página na posição que aparece. Isso é feito pelo atributo src (source), que contém o caminho para nosso arquivo de imagem.
+        </p>
+
+        <h3><i>Títulos</i></h3>
+        <p>
+            Os elementos de cabeçalhos permitem especificar que certas partes do seu conteúdo são títulos ou subtítulos. HTML contém 6 níveis de título, <-h1> - <-h6><-/h6>
+        </p>
+
+        <h3><i>Parágrafos</i></h3>
+        <p>
+             <-p> são para conter parágrafos de texto; você os usará com frequência ao marcar um conteúdo de texto regular:
+        </p>
+
+        <h3><i>Listas</i></h3>
+        <p>
+            Os tipos mais comuns de <mark>lista</mark> são <mark>ordenadas e não ordenadas:</mark>
+            <ol>
+                <li>
+                    Listas não ordenadas são para listas onde a ordem dos itens não importa, como uma lista de compras, por exemplo. Essas são envolvidas em um elemento <-ul>.
+                </li>
+                <li>
+                    Listas Ordenadas são para listas onde a ordem dos itens importa, como uma receita. Essas são envolvidas em um elemento <-ol>.
+                </li>
+            </ol>
+
+            <h3><i>Links</i></h3>
+            <p>
+                Links são muito importantes — eles são o que faz da web ser de fato uma REDE! Para adicionar um link, precisamos usar um elemento simples — <-a><-/a>
+            </p>
+        </p>
+
+        <address>
+            <p>Bibliografia: <a href="https://developer.mozilla.org/pt-BR/docs/Learn_web_development/Getting_started/Your_first_website/Creating_the_content" target="_blank">Developer.Mozilla</a></p>
+        </address>
+</body>
+</html>
