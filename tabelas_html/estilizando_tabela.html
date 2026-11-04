@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style_tabela.css">
+    <title>Estilizando tabela</title>
+</head>
+<body>
+    <table width="250" cellspacing="0" cellpadding="5" align="center"> <!-- Tabela -->
+
+        <caption>Tabela de Idade</caption>
+        <thead>
+            <tr> <!-- Linha -->
+                <th title="Nome completo">Nome</th>
+                <th>Idade</th>
+            </tr> 
+            
+            <tr> <!-- Linha -->
+                <!--rowspan mescla coluna-->
+                <th colspan="2">Minha tabela</th>  <!--Mesclar tabela-->              
+            </tr>
+            
+        </thead>
+        
+        <tbody>
+            <tr>
+                <td>João</td>
+                <td>25</td>
+            </tr>
+            <tr>
+                <td>Maria</td>
+                <td>30</td>
+            </tr>
+            <tr>
+                <td>Victor</td>
+                <td>30</td>
+            </tr>
+            <tr>
+                <td>Teste</td>
+                <td>52</td>
+            </tr>
+            <tr>
+                <td>Ana</td>
+                <td>28</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <!---<td colspan="2">Rodapé da tabela</td>-->
+                <td>Total</td>
+                <td>5</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
