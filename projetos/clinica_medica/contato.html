@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Clinica Veterinária</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <!--Limks do menu-->
+            <ul>
+                <li><a href="home.html" target="_self">Home</a></li>
+                <li><a href="sobre.html" target="_self">Sobre a Clínica</a></li>
+                <li><a href="horarios.html" target="_self">Horários de atendimento</a></li>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="header">
+                <img src="img/contato_header.jpg" width="600" height="250" alt="Recepção de uma clínica veterinária.">
+                <h1>Entre em Contato Conosco!</h1>
+            </div>
+
+            <div class="content">
+                <p>
+                    Tem alguma dúvida, deseja agendar uma consulta ou precisa de mais informações sobre nossos serviços?
+                </p>
+                <p><strong>Telefone:</strong> (11) 1234-5678</p>
+                <p><strong>Celular:</strong> (11) 98765-4321</p>
+                <p><strong>Endereço:</strong> Rua dos Animais, 123 - São Paulo/SP</p>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d68570.25961982229!2d-48.382609121362705!3d-23.998222583405237!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1spt-BR!2sbr!4v1793882379013!5m2!1spt-BR!2sbr"
+                    width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="strict-origin-when-cross-origin"></iframe>
+
+                <form name="contato" method="post">
+                    <p>
+                        <label>Nome:</label>
+                        <input type="text" name="nome" required>
+                    </p>
+                    <p>
+                        <label>Email:</label>
+                        <input type="email" name="email" required>
+                    </p>
+                    <p>
+                        <label>Assunto:</label>
+                        <input type="text" name="assunto">
+                    </p>
+                    <p>
+                        <label>Mensagem:</label>
+                        <textarea name="mensagem" required></textarea>
+                    </p>
+                    <button type="submit">Enviar</button>
+                    <button type="reset">Limpar</button>
+                </form>
+            </div>
+            <div class="footer">
+                <p>
+                    © 2026 Clínica Veterinária PetVida. Todos os direitos reservados.
+                </p>
+                <p><strong>Telefone:</strong> (11) 1234-5678</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
