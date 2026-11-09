@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1{
+    background: turquoise;
+    color: antiquewhite;
+}
+
+div{
+    background: yellowgreen;
+}
+
+li{
+    background: yellow;
+}
+
+#boas_vindas{
+    background: wheat;
+    color:brown;
+}
+
+#explicando_seletores{
+    background: chartreuse;
+    color:antiquewhite;
+}
+
+.classe{
+    background: violet;
+    color: aliceblue;
+}

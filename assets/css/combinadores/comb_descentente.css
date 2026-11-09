@@ -1,0 +1,29 @@
+/*
+li{
+    color: brown;
+}
+
+li li{
+    color: burlywood;
+}
+
+#lista_1 li{
+    background-color: aqua;
+}
+*/
+
+.back_verde li{
+    background-color: aquamarine;
+}
+
+.back_azul li{
+    background-color: beige;
+}
+
+li{
+    color: brown;
+}
+
+.back_verde #sublista_1 li{
+    color: black;
+}

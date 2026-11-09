@@ -1,0 +1,32 @@
+/*
+[title]{
+    color: aqua;
+}
+
+[title="Spotify"]{
+    color:blueviolet;
+}
+
+/*Procurar como inicia
+[title~="Streaming"]{
+    color: burlywood;
+}
+
+/*Procura pelo texto exato
+[title|="Streaming_Primevideo"]{
+    color: yellowgreen;
+}
+*/
+
+[href^="https"]{
+background: yellow;
+}
+
+[href$="login"]{
+    color: aqua;
+}
+
+/*localizar por palavra intependente da posição*/
+[href*="net"]{
+    background: violet;
+}

@@ -1,0 +1,13 @@
+/*h1, p, div{
+    color: aqua;
+    background-color: antiquewhite;
+}
+
+h1, [id^="botao"]{
+    background: violet;
+}
+*/
+
+p.text{
+    background-color: aqua;
+}
