@@ -1,0 +1,39 @@
+div{
+    margin-bottom: 25px;
+}
+
+.exemplo{
+    width: 300px;
+    height: 300px;
+    background-image: url(img/dio_makethechange_logo.jpg);
+    background-size: 120px;
+    border: 1px solid red;
+}
+
+#repeat{
+    background-repeat: repeat;
+}
+
+#repeat_x{
+    background-repeat: repeat-x;
+}
+
+#repeat_y{
+    background-repeat: repeat-y;
+}
+
+#space{
+    background-repeat: space;
+}
+
+#round{
+    background-repeat: round;
+}
+
+#no_repeat{
+    background-repeat: no-repeat;
+}
+
+#valor{
+    background-repeat: no-repeat repeat;
+}

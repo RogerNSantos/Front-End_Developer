@@ -1,0 +1,35 @@
+#pre_definidas{
+    color: aqua;
+}
+
+#current_color{
+    color: orange;
+    border: 1px solid currentColor; /*Deixa a mesma cor da fonte*/
+    width: 200px;
+}
+
+#hexadec{
+    color: #ff3590;
+}
+
+#hexadec_transparencia{
+    color: #0000FF90;
+}
+
+#rgb{
+    /*color: rgb(red green blue);*/
+    color: rgb(210, 050, 180);
+}
+
+#rgba{
+      /*color: rgba(red, green, blue, alpha);*/
+    color: rgba(255, 4, 4, 1);
+}
+
+#hsl{
+    color: hsl(120, 91%, 80%);
+}
+
+#hsla{
+    color: rgba(255, 0, 242, 0.6);
+}
