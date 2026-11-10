@@ -1,0 +1,10 @@
+    .div_01{
+        background-color: aqua; 
+        height: 150px;
+        width: 150px;              
+    }
+
+    .div_02{
+        background-color: bisque;
+        height: inherit;
+    }

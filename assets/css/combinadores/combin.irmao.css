@@ -1,0 +1,25 @@
+/*
+
+/*Combinador adijacente
+div + p{
+    color: aqua;
+}
+
+/*Irmão em geral
+div ~ p{
+    color: aquamarine;
+}
+
+.back_verde + p{
+    background: wheat;
+}
+
+.back_verde ~ p{
+    background: wheat;
+}
+*/
+
+/*Desendentes*/
+.back_verde p + p{
+    background: yellow;
+}

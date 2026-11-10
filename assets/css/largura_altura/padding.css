@@ -1,0 +1,15 @@
+div{
+    width: 250px;
+    height: 250px;
+}
+
+#elemento_01{
+  background-color: aqua;
+  color: aliceblue;
+  padding: 20px;
+}
+
+#elemento_02{
+    background-color: brown;
+    color: antiquewhite;
+}
