@@ -1,0 +1,28 @@
+p{
+    font-size: larger;
+}
+
+h1{
+    font-style: oblique;
+}
+
+h2{
+    font-weight: normal;
+}
+
+h3{
+    font-variant: small-caps;
+}
+
+h4{
+    font-stretch: semi-condensed;
+}
+
+h6{
+    font-size: 16px;
+    line-height: 2;
+}
+
+li{
+    font: italic small-caps bold;
+}

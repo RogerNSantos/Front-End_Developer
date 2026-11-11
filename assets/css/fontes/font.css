@@ -1,3 +1,18 @@
-*{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+@font-face{
+    font-family: Manuscriro;
+    src: url("fonts/PlaywriteARGuides-Regular.ttf");
+}
+
+@font-face {
+    font-family: Outra;
+    src: url("fonts/PlaywriteITTrad-VariableFont_wght.ttf");
+    font-weight: bold;
+}
+
+h1{
+    font-family: Outra;
+}
+
+p{
+    font-family: Manuscriro;
 }
