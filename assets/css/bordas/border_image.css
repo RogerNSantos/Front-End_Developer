@@ -1,0 +1,29 @@
+
+body {
+    font-family: system-ui, sans-serif;
+}
+
+.exemplo{
+    background-color: black;
+    width: 200px;
+    height: 200px;
+    margin-bottom: 35px;
+    border: 20px solid transparent;   
+    
+}
+
+#exemplo_resumido{
+    border-image: url(img/fig1.png) 100 / 40px / 1 round;
+}
+
+#exemplo_1 {
+    border-image-source: url("img/fig1.png");
+    border-image-slice: 50;
+    /*border-image-repeat: stretch;*/
+    border-image-outset: 10px;
+}
+
+#exemplo_2 {
+    border-image-source: linear-gradient(red, blue);
+    border-image-slice: 1;
+}
