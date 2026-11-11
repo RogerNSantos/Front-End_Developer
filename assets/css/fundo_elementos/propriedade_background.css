@@ -1,0 +1,11 @@
+.exemplo{
+    width: 300px;
+    height: 300px;
+    border: 10px solid palegoldenrod;
+    color: white;
+    padding: 30px;
+    font-size: 40px;
+    font-weight: 900;
+    background: url(img/dio_makethechange_logo.jpg); 
+    
+}

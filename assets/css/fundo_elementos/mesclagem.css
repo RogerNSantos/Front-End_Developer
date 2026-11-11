@@ -1,0 +1,16 @@
+div{
+
+}
+
+#exemplo{
+    width: 200px;
+    height: 200px;
+    border: 10px solid paleturquoise;
+    color: white;
+    padding: 30px;
+    font-size: 40px;
+    font-weight: 900;
+    background-color: blue;
+    background-image: url(img/dio_makethechange_logo.jpg);
+    background-blend-mode: luminosity;
+}
