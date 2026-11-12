@@ -1,0 +1,33 @@
+.exemplo{
+    background-color: yellowgreen;
+    width: 300px;
+}
+
+span {
+    background-color: seagreen;
+    color: whitesmoke;
+}
+
+#normal{
+    white-space: normal;
+}
+
+#nowrap{
+    white-space: nowrap;
+}
+
+#pre{
+    white-space: pre;
+}
+
+#pre_line{
+    white-space: pre-line;
+}
+
+#pre_wrap{
+    white-space: pre-wrap;
+}
+
+#break_spaces{
+    white-space: break-spaces;
+}

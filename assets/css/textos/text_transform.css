@@ -1,0 +1,5 @@
+p{
+   text-transform: lowercase;
+    /*text-transform: uppercase; Todas maiusculas*/
+    /* text-transform: capitalize; /Iniciais caixa alta*/
+}

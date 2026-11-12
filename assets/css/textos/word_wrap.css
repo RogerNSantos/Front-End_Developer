@@ -1,0 +1,13 @@
+.exemplo{
+    width: 100px;
+    color: aliceblue;
+    background-color: brown;
+}
+
+#normal{
+    word-wrap: normal;
+}
+
+#break_word{
+    word-wrap: break-word;
+}

@@ -1,0 +1,23 @@
+.exemplo{
+    width: 120px;
+
+    color: aliceblue;
+    background-color: brown;
+}
+
+p{
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+#exemplo1{
+    text-overflow: clip;
+}
+
+#exemplo2{
+    text-overflow: ellipsis;
+}
+
+#exemplo3{
+    text-overflow: 'Ver mais...';
+}

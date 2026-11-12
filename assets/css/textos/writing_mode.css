@@ -1,0 +1,18 @@
+.exemplo{
+    width: 120px;
+    height: 120px;
+    color: aliceblue;
+    background-color: brown;
+}
+
+#exemplo1{
+    writing-mode: horizontal-tb;
+}
+
+#exemplo2{
+    writing-mode: vertical-rl;
+}
+
+#exemplo3{
+    writing-mode: vertical-lr;
+}
