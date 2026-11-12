@@ -1,0 +1,11 @@
+.exemplo{
+    background-color: rgba(0, 0, 0, .4);
+    border: 5px solid orangered;
+    padding: 15px;
+    color: white;
+    /*opacity: .6;*/
+}
+
+.exemplo img{
+    width: 50%;
+}
