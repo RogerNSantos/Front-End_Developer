@@ -1,0 +1,15 @@
+div{
+    padding: 10px;
+}
+
+.exemplo_01{
+    background-color: yellow;
+    width: 300px;
+    box-sizing: border-box;
+}
+
+.exemplo_02{
+    background-color: brown;
+    width: calc(100% - 30px);
+    box-sizing: border-box;
+}
