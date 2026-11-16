@@ -1,0 +1,91 @@
+@import url(reset.css);
+
+body{
+    background-color:;
+}
+
+h2{
+    font-size: 2rem;
+    color: #33A8DB;
+    font-weight: bold;
+    letter-spacing: 4px; /*Espaço entre palavras e caracteres*/
+    text-transform: uppercase;
+    margin-bottom: 24px;
+}
+
+p{
+    color: white;
+}
+
+section{
+
+}
+
+.banner{
+
+}
+
+.banner h1{
+    color: transparent;
+
+}
+
+.banner p{
+
+}
+
+.banner .logo{
+
+}
+
+.banner .logo img{
+
+}
+
+.banner .banner-contant button{
+    color: #31A8DD;
+}
+
+#course-contente{
+
+}
+
+#course-content .modules-list{
+
+}
+
+#course-content .modules-list .module{
+ color: white;
+}
+
+#course-content .modules-list .modulo span{
+    color: #33A8DB;
+}
+
+#transform-word{
+
+}
+
+#transform-world p{
+
+}
+
+#professional-challenges{
+
+}
+
+#professional-challenges img{
+
+}
+
+footer{
+
+}
+
+footer .dio-logo{
+
+}
+
+footer a{
+    color: #33A8DB;
+}
