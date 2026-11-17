@@ -1,0 +1,42 @@
+body{
+    font-family: sans-serif;
+}
+
+.exemplo{
+    background-color: aquamarine;
+}
+
+.exemplo_inline{
+    background-color: bisque;
+    width: 450px;/*Não aceita*/
+    height: 450px;/*Não aceita */
+}
+
+.exemplo_inline_block{
+    background-color: aqua;
+    display: inline-block ;
+    width: 200px;
+    margin: 8px;
+    padding: 30px;
+}
+
+.menu{
+    background-color: blanchedalmond;
+    
+}
+
+.menu ul li{
+    display: inline-block;
+    padding: 10px 40px;
+    
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color: black;
+    
+}
+
+.esconder_elemento{
+    display: none;
+}

@@ -1,0 +1,22 @@
+body{
+    font-family: sans-serif;
+}
+
+.exemplo{
+    background-color: burlywood;
+}
+
+.container{
+    border: 2px solid blue;
+    text-align: center;
+}
+
+#item_01{
+    height: 30px;
+    vertical-align: middle;/*centralizados na altura*/
+}
+
+/*#item_02{
+
+}
+*/

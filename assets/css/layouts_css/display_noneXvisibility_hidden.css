@@ -1,0 +1,12 @@
+body{
+    font-family: sans-serif;
+}
+
+.exemplo{
+    background-color: antiquewhite;
+}
+
+#item_02{
+    /*display: none;*/
+    visibility: hidden;
+}

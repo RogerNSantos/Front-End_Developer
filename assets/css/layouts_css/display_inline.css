@@ -1,0 +1,13 @@
+body{
+    font-family: sans-serif;
+}
+
+.exemplo{
+    background-color: aquamarine;
+}
+
+.exemplo_inline{
+    background-color: bisque;
+    width: 450px;/*Não aceita*/
+    height: 450px;/*Não aceita */
+}
