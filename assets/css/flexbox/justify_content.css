@@ -1,0 +1,23 @@
+.container{
+    background-color: aquamarine;
+   /* padding: 20px;*/
+    margin: 20px;
+    width: 300px;
+    display: flex;  
+    justify-content: space-evenly;  
+}
+
+.item{
+    background-color: blueviolet;
+   /* margin: 10px;*/
+}
+
+#container_01{
+    flex-flow: row wrap;
+}
+
+#container_02{    
+    height: 300px;
+    flex-flow: column wrap-reverse;
+}
+

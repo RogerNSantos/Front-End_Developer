@@ -1,0 +1,20 @@
+.container{
+    background-color: aquamarine;
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+}
+
+.item{
+    background-color: blueviolet;
+    margin: 10px;
+}
+
+#container_01{
+    flex-direction: row-reverse;
+}
+
+#container_02{
+    flex-direction: column-reverse;
+    height: 200px;
+}

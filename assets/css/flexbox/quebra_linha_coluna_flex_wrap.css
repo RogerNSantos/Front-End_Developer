@@ -1,0 +1,22 @@
+.container{
+    background-color: aquamarine;
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    width: 300px;
+    flex-wrap: wrap-reverse;
+}
+
+.item{
+    background-color: blueviolet;
+    margin: 10px;
+}
+
+#container_01{
+    flex-direction: row;
+}
+
+#container_02{
+    flex-direction: column;
+    height: 300px;
+}
