@@ -1,0 +1,22 @@
+.container{
+    background-color: violet;
+    padding: 10px;
+    margin-bottom: 20px;
+    height: 200px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.item{
+    background-color: aqua;
+    width: 100px;
+    text-align: center;
+    flex-grow: 1;
+}
+
+.item_02{
+    flex-basis: 50%;
+}

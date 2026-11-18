@@ -1,0 +1,29 @@
+.container{
+    background-color: violet;
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 300px;
+    height: 200px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+#container_01{
+    flex-direction: column;
+}
+
+/*flex: grow shrink bassis*/
+.item{
+    background-color: aqua;
+    text-align: center;
+    /*flex: initial ;/*flex: 0 1 auto*/
+    /*flex: auto;/*1 1 auto*/
+    flex: 1;/*1 1 0*/
+}
+
+.item_02{
+    flex: 3;/*fçex: 3 1 0*/
+}

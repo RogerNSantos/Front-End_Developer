@@ -1,0 +1,30 @@
+.container{
+    background-color: aquamarine;
+    padding: 10px;
+    margin: 20px;
+    width: 300px;
+    height: 250px;
+
+    display: flex;  
+   flex-wrap: wrap;
+   /*row-gap: 10px;
+   column-gap: 10px;*/
+   gap: 35px 35px;
+}
+
+.item{
+    background-color: orange;
+    
+}
+
+#container_01{
+    
+    flex-direction: row;
+    
+}
+
+#container_02{   
+
+    
+    flex-direction: column;
+}

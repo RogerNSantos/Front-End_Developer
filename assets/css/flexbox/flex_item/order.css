@@ -1,0 +1,31 @@
+.container{
+    background-color: aquamarine;
+    padding: 10px;
+    margin-bottom: 20px;
+
+    /*flex container props*/
+    display: flex;  
+    gap: 35px 35px;
+}
+
+.item{
+    background-color: orange;
+    padding: 8px;
+}
+
+#container_01{    
+    flex-flow: row wrap;
+    
+}
+
+#container_02{    
+    flex-flow: column wrap;
+}
+
+.item_04{
+    order: -1;
+}
+
+.item_05{
+    order: -1;
+}

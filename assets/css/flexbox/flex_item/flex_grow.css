@@ -1,0 +1,22 @@
+.container{
+    background-color: aquamarine;
+    padding: 10px;
+    margin-bottom: 20px;
+    height: 200px;
+
+    /*flex container props*/
+    display: flex;
+    align-items: flex-start;  
+    gap: 10px;
+}
+
+.item{
+    background-color: orange;
+    padding: 8px;
+    flex-grow: 1;
+}
+
+
+.item_02{
+     flex-grow: 3;
+}
