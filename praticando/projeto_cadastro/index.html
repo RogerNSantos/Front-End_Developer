@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="shortcut icon" href="img/user.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <figure>
+            <img src="img/Cadastro1.jpg" alt="Imagem de um computador para cadastro">
+        </figure>
+    </header>
+    <main>
+        <form class="form" name="CadastrodeUsuario" method="post" action="ValidarCadastrodeUsuario.php">
+
+            <h1>Cadastro de usuários</h1>
+
+            <label for="name">Digite seu nome:</label>
+            <input type="text" name="name" id="name">
+
+            <label for="email">Digite seu e-mail:</label>
+            <input type="email" name="email" id="email">
+
+            <label for="password">Digite sua senha:</label>
+            <input type="password" name="password" id="password">
+
+            <select name="perfil" id="perfil">
+                <option value="Escolha usuário">Escolha o perfil</option>
+                <option value="funcionario">Auxiliar</option>
+                <option value="usuario">Usuário</option>
+                <option value="administrador">Administrador</option>
+            </select>
+            <div class="botoes">
+                <button type="submit">Entrar</button>
+                <button type="reset">Limpar</button>
+            </div>
+        </form>
+    </main>
+</body>
+
+</html>
