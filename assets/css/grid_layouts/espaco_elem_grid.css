@@ -1,0 +1,47 @@
+body{
+    display: grid;
+    border: 3px solid black;
+    grid-template: repeat(3, 200px) / repeat(3, 1fr);
+
+
+    /*row-gap: 10px;
+    column-gap: 10px;*/
+    gap: 10px 20px;
+    padding: 5px;
+}
+
+.item_01{
+    background-color: antiquewhite;
+}
+
+.item_02{
+    background-color: aqua;
+}
+
+.item_03{
+    background-color: aquamarine;
+}
+
+.item_04{
+    background-color: blue;
+}
+
+.item_05{
+    background-color: blueviolet;
+}
+
+.item_06{
+    background-color: beige;
+}
+
+.item_07{
+    background-color: brown;
+}
+
+.item_08{
+    background-color: cadetblue;
+}
+
+.item_09{
+    background-color: chartreuse;
+}

@@ -1,0 +1,51 @@
+body{
+    display: grid;
+    border: 3px solid black;
+    height: 80vh;
+    grid-template: repeat(3, 1fr) / repeat(3, auto);
+  
+   place-items: center;
+   
+}
+
+.item_01{
+    background-color: antiquewhite;
+    justify-self: end;
+}
+
+.item_02{
+    background-color: aqua;
+}
+
+.item_03{
+    background-color: aquamarine;
+}
+
+.item_04{
+    background-color: blue;
+    justify-self: start;
+}
+
+.item_05{
+    background-color: blueviolet;
+}
+
+.item_06{
+    background-color: beige;
+}
+
+.item_07{
+    background-color: brown;
+}
+
+.item_08{
+    background-color: cadetblue;
+}
+
+.item_09{
+    background-color: chartreuse;
+    /*justify-self: stretch;
+    align-self: stretch;*/
+    place-self: stretch center;
+
+}

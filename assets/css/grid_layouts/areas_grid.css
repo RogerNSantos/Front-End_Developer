@@ -1,0 +1,92 @@
+/*.container{
+    border: 2px solid black;
+    display: grid;
+ 
+    grid-template-columns: [primeira_linha_col] 1fr [segunda_linha_col] 1fr [terceira_linha_col] 1fr [quarta_linha_col];
+    grid-template-rows: [linha_inicio] 150px [linha_meio] 150px [linha_fim];
+}
+
+.item{
+   text-align: center;
+   background-color: yellow;
+}
+
+.selected{
+    text-align: center;
+    background-color: blueviolet;
+
+    /*grid-column: segunda_linha_col / terceira_linha_col;
+    grid-row: linha_meio / linha_fim;
+
+    grid-area: linha_meio / segunda_linha_col / linha_fim / terceira_linha_col;
+    /*grid-area: row-start / column-start / row-end / column-end
+}
+*/
+
+/*body{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 200px);
+    grid-template-areas: "header header header header" "main main . asider" "footer footer footer footer";
+}
+
+.container{
+    border: 2px soid black;
+    display: grid;
+}
+
+header{
+    background-color: aqua;
+    grid-area: header;
+}
+
+main{
+    background-color: aquamarine;
+    grid-area: main;
+}
+
+aside{
+    background-color: bisque;
+    grid-area: asider;
+}
+
+footer{
+    background-color: cadetblue;
+    grid-area: footer;
+}
+*/
+
+body{
+    margin: 0px;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    grid-template-rows: 100px 3fr 1fr;
+    grid-template-areas: "logo navbar" "sidebar main" "sidebar footer";
+}
+
+.logo{
+    background-color: aqua;
+    grid-area: logo;
+}
+
+nav{
+    background-color: aquamarine;
+    grid-area: navbar;
+}
+
+aside{
+    background-color: bisque;
+    grid-area: sidebar;
+}
+
+main{
+    background-color: brown;
+    grid-area: main;
+}
+
+footer{
+    background-color: yellowgreen;
+    grid-area: footer;
+}
+

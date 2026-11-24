@@ -1,0 +1,48 @@
+body{
+    display: grid;
+    border: 3px solid black;
+    height: 80vh;
+    grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+
+
+    gap: 10px;
+    /*justify-items: center;
+    align-items: start;*/
+    place-items: center start;
+}
+
+.item_01{
+    background-color: antiquewhite;
+}
+
+.item_02{
+    background-color: aqua;
+}
+
+.item_03{
+    background-color: aquamarine;
+}
+
+.item_04{
+    background-color: blue;
+}
+
+.item_05{
+    background-color: blueviolet;
+}
+
+.item_06{
+    background-color: beige;
+}
+
+.item_07{
+    background-color: brown;
+}
+
+.item_08{
+    background-color: cadetblue;
+}
+
+.item_09{
+    background-color: chartreuse;
+}
