@@ -1,0 +1,13 @@
+
+.imagem_container{
+    border: 2px solid burlywood;
+    text-align: center;
+    height: 300px;
+    width: 300px;
+    background-image: url(img/sobre_header.jpg);
+}
+
+img{
+    max-width: 100%;
+    
+}

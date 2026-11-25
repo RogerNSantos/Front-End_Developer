@@ -1,0 +1,10 @@
+@media print{
+    body{
+        background-color: blue;
+        color: aliceblue;
+    }
+
+    p{
+        color: yellow;
+    }
+}

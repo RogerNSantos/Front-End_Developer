@@ -1,0 +1,10 @@
+body{
+    font: Arial;
+}
+
+.container{
+   /* column-count: 3;*/
+   column-width: 200px;/*Calcula quantas colunas de 200px cabem pa página*/
+   column-rule: 2px solid blue; /*Define uma divisão*/
+   column-gap: 100px;/*Inclui um espaço entre as colunas*/
+}
